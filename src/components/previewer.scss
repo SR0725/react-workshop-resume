@@ -1,0 +1,55 @@
+.previewer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 36px;
+}
+
+.resume {
+  color: #333;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+
+  .resume-header {
+    background-color: #005792;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    .name {
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+
+    .gender {
+      margin-left: auto;
+    }
+  }
+
+  .profile-section,
+  .skills-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    h2 {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+}

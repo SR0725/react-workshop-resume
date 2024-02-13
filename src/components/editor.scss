@@ -1,0 +1,75 @@
+.editor {
+  width: 100%;
+  min-height: 100vh;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+
+  .text-input,
+  .text-area {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .skill-text {
+      padding: 8px;
+      font-size: 20px;
+    }
+
+    .btn {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .radio-group {
+    display: flex;
+    gap: 24px;
+
+    label {
+      font-size: 20px;
+
+      input {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .editor-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+
+      .required {
+        color: red;
+        margin-left: 4px;
+      }
+    }
+  }
+}
